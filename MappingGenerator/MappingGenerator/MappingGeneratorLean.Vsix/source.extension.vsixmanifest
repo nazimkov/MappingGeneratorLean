@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="MappingGenerator" Version="1.0" Language="en-US" Publisher="Cezary Piątek"/>
-        <DisplayName>MappingGenerator</DisplayName>
+        <Identity Id="MappingGeneratorLean" Version="1.0" Language="en-US" Publisher="Slava Nazimkov"/>
+        <DisplayName>MappingGeneratorLean</DisplayName>
         <Description xml:space="preserve">Roslyn based code fix provider that allows to generate mapping code in design time.</Description>
         <Icon>preview.png</Icon>
         <PreviewImage>preview.png</PreviewImage>
