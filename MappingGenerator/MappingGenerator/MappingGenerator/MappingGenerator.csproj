@@ -41,7 +41,9 @@
 
   <ItemGroup>
     <None Update="tools\*.ps1" CopyToOutputDirectory="Always" Pack="true" PackagePath="" />
+    <None Remove="bin\Release\netstandard1.3\\MappingGenerator.dll" />
     <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    <None Remove="bin\Release\netstandard1.3\\Pluralize.NET.dll" />
     <None Include="$(OutputPath)\Pluralize.NET.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
     <None Include="..\..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
