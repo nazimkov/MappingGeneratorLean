@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json.schemastore.org/vsix-publish",
+    "categories": [
+        "coding",
+        "scaffolding"
+    ],
+    "identity": {
+        "internalName": "mappinggeneratorlean"
+    },
+    "overview": "overview.md",
+    "priceCategory": "free",
+    "publisher": "",
+    "private": false,
+    "qna": true,
+    "repo": "https://github.com/nazimkov/MappingGeneratorLean"
+}
